@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(135deg, #008080, #001f3f);
+  height: 100vh;
+}
+
+#title{
+  text-align: center;
+  margin-top: 10%;
+  font-size: 4rem;
+}
+
+#age {
+  color: rgb(255, 255, 29);
+}
+
+.container {
+  margin: 0 auto;
+  align-items: center;
+  width: 30%;
+  padding: 2rem 2rem;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  background: transparent;
+  backdrop-filter: blur(90px);
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-top: 4%;
+}
+
+#calculate, #date, #reset {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+}
+
+#date{
+  width: 70%;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+#calculate {
+  margin-right: 5px;
+}
+
+#calculate, #reset {
+  background-color: rgb(255, 255, 29);
+  cursor: pointer;
+}
+
+#result {
+  text-align: center;
+  padding: 2rem;
+  color: snow;
+  font-size: 1.5rem;
+}
+
+#return {
+  margin-left: 45%;
+}
+
+#return button {
+  background-color: rgb(255, 255, 29);
+  cursor: pointer;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10%;
+}
+
+button {
+  font-weight: bolder;
+}
+
+#calcu {
+  color: snow;
+}

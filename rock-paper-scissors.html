@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="rock-paper-scissors.css">
+  <title>Rock Paper Scissors</title>
+</head>
+<body>
+  <h1 class="title">ROCK PAPER SCISSORS</h1>
+
+  <div class="container">
+
+    <div class="result">
+
+      <input type="text" id="results" disabled>
+
+    </div>
+
+    <hr>
+
+    <div class="choices">
+
+      <h1>Click to choose</h1>
+
+      <div class="choices1">
+
+        <button type="button" class="rock buttons" onclick="play('rock')" onmouseover="rock()"><i class="fa fa-hand-rock-o"></i></button>
+        <button type="button" class="paper buttons" onclick="play('paper')" onmouseover="paper()"><i class="fa fa-hand-paper-o"></i></button>
+        <button type="button" class="scissors buttons" onclick="play('scissors')" onmouseover="scissor()"><i class="fa fa-hand-scissors-o"></i></button>
+
+      </div>
+
+    </div>
+
+    <hr>
+
+    <div class="score">
+
+      <p id="score1">YOU: <input type="text" id="score12" disabled></p>
+      <p id="score1">COMPUTER: <input type="text" id="score123" disabled></p>
+
+    </div>
+
+    <button type="reset" id="reset" onclick="reset()">Reset</button>
+
+  </div>
+
+  <a href="index.html" id="return"><button>Return To Homepage</button></a>
+
+  <script src="rock-paper-scissors.js"></script>
+</body>
+</html>
