@@ -68,6 +68,12 @@ body{
   transform: scale(1.2);
 }
 
+
+.scoreBoard {
+  text-align: center;
+  padding-top: .5rem;
+}
+
 .score {
   display: flex;
   justify-content: center;

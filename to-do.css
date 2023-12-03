@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(135deg, #008080, #001f3f);
+  height: 100vh;
+}
+
+.to-do-container {
+  margin: 10% auto 10%;
+  background-color: #fff;
+  width: 50%;
+  min-height: 20%;
+  border: none;
+  border-radius: 20px;
+}
+
+.to-do-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 10%;
+}
+
+.to-do-title #icon {
+  height: 3rem;
+  width: 3rem;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.to-do-input{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1.5rem;
+}
+
+.to-do-input #to-do-field {
+  border-radius: 20px;
+  border: none;
+  padding: 20px;
+  width: 90%;
+  background-color: #edeef0;
+  gap: 1rem;
+}
+
+#todoBtn{
+  border: none;
+  padding: 20px;
+  border-radius: 20px;
+  width: 15%;
+  margin-left: 1rem;
+  cursor: pointer;
+  background-color: rgb(255, 255, 29);
+}
+
+ul li {
+  position: relative;
+  left: 7%;
+  top: 2%;
+  list-style: circle;
+  cursor: pointer;
+  bottom: 1rem;
+  font-size: 17px;
+  padding: 14px;
+}
+
+ul li.text{
+  color: #555;
+  text-decoration: line-through;
+  list-style-type: none;
+}
+
+ul li.text::before {
+  content: "\2022";
+  color: red;
+  position: absolute;
+  left: -2%;
+  width: 1rem;
+}
+
+ul li span {
+  position: absolute;
+  right: 120px;
+  color: red;
+  font-weight: 1000;
+  font-size: 19px;
+}
+
+ul li span:hover {
+  transform: scale(.95);
+}
+
+.return {
+  text-align: center;
+}
+
+.return button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color:rgb(255, 255, 29);
+  border: none;
+}

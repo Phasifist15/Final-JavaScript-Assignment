@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="to-do.css">
+  <title>To-Do List</title>
+</head>
+<body>
+  
+  <div class="to-do-container">
+
+    <div class="to-do-title">
+      <img src="Images/icon.png" id="icon"> <span class="title">To-Do List</span>
+    </div>
+
+    <div class="to-do-input">
+      <input type="text" id="to-do-field" placeholder="Input Text Here">
+      <button type="button" id="todoBtn" onclick="addTask()">Add</button>
+    </div>
+
+    <ul id="task-field">
+      <!-- <li class="text">Text 1</li> -->
+    </ul>
+    
+  </div>
+
+  <div class="return">
+    <a href="index.html"><button type="button">Return to Homepage</button></a>
+  </div>
+
+  <script src="to-do.js"></script>
+</body>
+</html>

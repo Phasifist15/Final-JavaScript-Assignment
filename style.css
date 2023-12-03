@@ -12,7 +12,7 @@ body {
 .game1 {
   position: absolute;
   text-align: center;
-  margin-top: 5%;
+  margin-top: 3.6%;
   color: white;
   font-family: 'Permanent Marker', cursive;
   left: 10%;
@@ -88,6 +88,47 @@ body {
 }
 
 .age-calculator .age-button button {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  background-color: rgb(255 255 29);
+}
+
+.to-do1{
+  position: absolute;
+  text-align: center;
+  margin-top: 3.6%;
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+  left: 69%;
+}
+
+.to-do2 {
+  border: 1px solid;
+  align-items: center;
+  width: 20%;
+  text-align: center;
+  position: absolute;
+  left: 69%;
+  top: 20%;
+  border-radius: 5px;
+  background-color: #066363;
+  box-shadow: 0 0 10px 5px rgb(255 255 29);
+}
+
+.to-do-title img {
+  width: 50%;
+  margin: 2rem;
+}
+
+.to-do-button {
+  overflow: hidden;
+  padding: 1rem;
+  background-color: #001f3f;
+}
+
+.to-do-button button {
   cursor: pointer;
   border: none;
   border-radius: 5px;
